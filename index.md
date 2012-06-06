@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Gu Youn's Blog
+title: Gu's Blog
 ---
 {% for post in site.posts limit:5 %}
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
